@@ -99,4 +99,12 @@ def add_student():
 
     return jsonify(result) 
 
+@app.route("/sum", methods=['POST'])
+def sum():
+    r = request.get_json()
+    try:
+        s = r['a'] + r['b']
+    except:
+        return jsonify({"message": "Error occurred, check your inputs"}), 500
 
+    return jsonify({"result": s})
