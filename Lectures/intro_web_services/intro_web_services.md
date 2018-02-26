@@ -8,5 +8,25 @@ This lecture has some accompanying slides that can be found [here](https://docs.
 
 Example code for a python program queries the ADPL API can be found in [call_apis](call_apis/).
 
-## Minimal example
-In python, we'll be using the `requests` library to call RESTful APIs that existing web services expose. Next lecture, we'll write our own web service that exposes functionality. See the associated [jupyter notebook](Requests.ipynb) for an introduction to the requests library syntax.
+## Mini-project
+Before the next class, write a program that uses the `requests` library (see example syntax [here](Requests.ipynb)) to POST your student data to a sample `bme590` server at `http://bme590.suyash.io`. 
+
+This server has the following endpoints:
+* `GET http://bme590.suyash.io/list` -- returns a list of the data currently stored
+* `POST http://bme590.suyash.io/student` -- allows you to add your student data. The associated POST data should look like this JSON:
+   ```
+   {
+     "first_name": "Suyash",
+     "last_name": "Kumar",
+     "netid": "sk317",
+     "github_username": "suyashkumar",
+     "team_name": "instructors"
+   }
+   ```
+* `POST http://bme590.suyash.io/sum` -- allows you to compute a standard sum based on JSON input that looks like:
+  ```
+  {
+    "a": 1,
+    "b": 2
+  }
+  ```
