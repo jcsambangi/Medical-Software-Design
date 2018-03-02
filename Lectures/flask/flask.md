@@ -98,3 +98,6 @@ Create a flask web service that implements the following RESTful API specificati
   }
   ```
   
+  ## VCM Deployment
+  You can access the Duke VCM portal [here](https://vcm.duke.edu/). More will be covered about this in class. 
+  
