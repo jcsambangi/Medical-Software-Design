@@ -81,10 +81,10 @@ Create a flask web service that implements the following RESTful API specificati
   {
     "message": "Hello there, <:name parameter here>"
   }
+  ```
   :eyes:Note that `:name` in the `GET` command above just a common way to
   specify that `name` is a variable, but it is actually specified as `<name>`
-  in the URL.:eyes:
-  ```
+  in the flask route specification decorator.:eyes:
 * `POST /distance` with data input of two 2D cartesian points that looks like:
   ```
   {
