@@ -69,7 +69,7 @@ def sum():
 ```
 
 ## Mini-project
-Create a flask web service that implements the following RESTful API specifications:
+Create a flask web service that implements the following RESTful API specifications. Push this code to a repository called `flask_getting_started`. 
 * `GET /name` -- which returns the following JSON:
   ```
   {
