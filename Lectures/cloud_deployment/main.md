@@ -49,6 +49,20 @@ pip3 install virtualenv
 
 You should now be able to pull down python3 projects that use virtualenvs and pip. For example this setup is sufficient for setting up and running the [gunicorn_example](gunicorn_example) server on your VM.
 
+## SSH
+To interact with your virtual machine, we can use `ssh` to gain access to a shell/terminal on your remote virtual machine. Windows users should use [mobaxterm](https://mobaxterm.mobatek.net/) to do this process, or you can use `ssh` commands from the built-in Ubuntu subsystem.
+
+A general SSH command looks like:
+```sh
+ssh <username>@<server ip or hostname>
+```
+
+For your VCMs you should always be using the `vcm` username, so your command will look something like:
+```sh
+ssh vcm@vcm@vcm-3461.vm.duke.edu
+```
+
+
 ## Screen
 Screen is a linux program that allows you to create multiple terminal sessions (think "tabs") that can be attached and detached. What this means is that you can spin up a "screen" where you are running a program, detach that "screen" and then logout of the VM without the program on that screen being terminated. These are the screen commands:
 
