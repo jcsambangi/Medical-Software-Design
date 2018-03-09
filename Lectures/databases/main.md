@@ -49,3 +49,30 @@ for user in User.objects.raw({"first_name":"Rob"}):
 	print(user.first_name)
 	print(user.last_name)
 ```
+
+## Mini-project/Assignment
+Create a new repository under your github username called `heart_rate_databases_introduction`. Build a web service that exposes the following functionality:
+
+* `POST /api/heart_rate` with
+  ```sh
+  {
+      "user_email": "suyash@suyashkumar.com",
+      "heart_rate": 100
+  }
+  ```
+  which should store this heart rate measurement for the user with that email. Be sure to include the [current time stamp](https://stackoverflow.com/questions/415511/how-to-get-current-time-in-python) in your database. 
+* `GET /api/heart_rate/<user_email>` should return all heart rate measurements for that user
+* `GET /api/heart_rate/average/<user_email>` should return the user's average heart rate over all measurements
+* `POST /api/heart_rate/interval_average` with 
+  ```
+  {
+      "user_email": "",
+      "heart_rate_average_since": "2018-03-09 11:00:36.372339" // date string
+  }
+  ```
+  Should calculate the average heart rate for the user since the time specified. 
+
+## MySQL/postgres
+An example of a postgres project is [here](../intro_web_services/class_roster_server). For SQL databases, we store data across tables and specify relationships across those tables (as discussed in the previous database lecture). 
+
+
