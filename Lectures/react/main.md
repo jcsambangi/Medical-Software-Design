@@ -2,6 +2,8 @@
 
 [ReactJS](https://reactjs.org/) is a Javascript framework written by Facebook to make it easy to build applications with a Graphical User Interface on the web. You can think of web applications just like any application that runs on your computer with a GUI -- except that it runs inside a browser (but still "on" your computer). When you visit a web URL of a react application, such as [http://adpl.suyash.io](http://adpl.suyash.io), your browser actually _downloads_ the code and assets needed to run the web application to your computer and then runs the web application (again, this is all running on _your_ computer). One of the biggest advantages of web applications is that they are cross platform, because browsers generally run the same across Windows/Mac/Linux and mobile devices like iPhone/Android. 
 
+We will cover how to setup React locally next class, but if you want to play around before then, you can use a cloud IDE like stackblitz here: https://stackblitz.com/fork/react 
+
 ## Basic HTML/JSX primer
 HTML is a markup language that can have nested tag structures like so:
 ```html
