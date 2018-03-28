@@ -137,7 +137,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Mar 28</td>
-  <td><a href="Lectures/react/lecture2.md">Polished ReactJS GUI + RESTful API Requests [SK]</a></td>
+  <td><a href="Lectures/react/lecture2.md">Polished ReactJS + RESTful API Requests [SK]</a></td>
 <td></td>
 </tr>
 
