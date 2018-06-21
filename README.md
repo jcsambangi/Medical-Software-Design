@@ -29,8 +29,8 @@ will require some tweaking, specifically the `print()` function calls and fancy
 string formatting.*
 
 A generic python virtual environment can be created using the included
-`requirements.txt` file, which should provide package coverage for all of the
-examples and Jupyter notebooks in this repository.  
+[requirements.txt](requirements.txt) file, which should provide package
+coverage for all of the examples and Jupyter notebooks in this repository.  
 
 ### ReactJS
 Web frontend development will be done using the [ReactJS](https://reactjs.org/)
