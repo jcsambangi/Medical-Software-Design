@@ -24,9 +24,9 @@ While all of the software development practices covered in this class are meant
 to be programming language agnostic, Python is used as the "default" language
 for many of our tasks.  
 
-*All code has been written to be compatible with Python
->=3.5; Python 2.7 usage will require some tweaking, specifically the `print()`
->function calls and fancy string formatting.*
+*All code has been written to be compatible with Python >=3.5; Python 2.7 usage
+will require some tweaking, specifically the `print()` function calls and fancy
+string formatting.*
 
 A generic python virtual environment can be created using the included
 `requirements.txt` file, which should provide package coverage for all of the
