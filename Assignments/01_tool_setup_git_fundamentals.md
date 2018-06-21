@@ -21,12 +21,8 @@
     packages, such as `numpy`, which do not exist in compiled wheels for
     Windows.
 
-1. You will want a code writing environment that makes life easier for you as
-  your projects get more complex.  Options include:
-  + VIM [http://www.vim.org] (ideal for terminal usage)
-  + GitHub Atom [https://atom.io/]
-  + Visual Studio Code [https://code.visualstudio.com/]
-  + PyCharm [https://www.jetbrains.com/pycharm/]  (full-featured IDE)
+1. Checkout the [README](../README.md) for coding environments that you can
+   install on your computer.
 
 ## Learning Git
 1. Never used git before?  Start with these resources:
